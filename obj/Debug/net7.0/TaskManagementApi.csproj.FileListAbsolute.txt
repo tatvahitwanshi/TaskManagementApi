@@ -42,9 +42,10 @@ D:\Angular\TaskManagementApi\obj\Debug\net7.0\staticwebassets.pack.json
 D:\Angular\TaskManagementApi\obj\Debug\net7.0\staticwebassets.build.json
 D:\Angular\TaskManagementApi\obj\Debug\net7.0\staticwebassets.development.json
 D:\Angular\TaskManagementApi\obj\Debug\net7.0\scopedcss\bundle\TaskManagementApi.styles.css
-D:\Angular\TaskManagementApi\obj\Debug\net7.0\TaskManagementApi.csproj.CopyComplete
 D:\Angular\TaskManagementApi\obj\Debug\net7.0\TaskManagementApi.dll
 D:\Angular\TaskManagementApi\obj\Debug\net7.0\refint\TaskManagementApi.dll
 D:\Angular\TaskManagementApi\obj\Debug\net7.0\TaskManagementApi.pdb
 D:\Angular\TaskManagementApi\obj\Debug\net7.0\TaskManagementApi.genruntimeconfig.cache
 D:\Angular\TaskManagementApi\obj\Debug\net7.0\ref\TaskManagementApi.dll
+D:\Angular\TaskManagementApi\obj\Debug\net7.0\TaskManagementApi.sourcelink.json
+D:\Angular\TaskManagementApi\obj\Debug\net7.0\TaskMana.85ED9B13.Up2Date

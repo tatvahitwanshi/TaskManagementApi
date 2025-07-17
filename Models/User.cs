@@ -13,7 +13,11 @@ public partial class User
 
     public string Passwordhash { get; set; } = null!;
 
-    public DateTime? Createdat { get; set; }
+    public DateTime? Createdate { get; set; }
+
+    public string? RefreshToken { get; set; }
+
+    public DateTime? RefreshTokenExpiry { get; set; }
 
     public virtual ICollection<Task> Tasks { get; } = new List<Task>();
 

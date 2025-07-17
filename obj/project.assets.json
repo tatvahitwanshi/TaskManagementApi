@@ -1857,11 +1857,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Angular\\TaskManagementApi\\TaskManagementApi.csproj",
+      "projectUniqueName": "D:\\Angular\\TaskManagementApi\\TaskManagementApi.csproj",
       "projectName": "TaskManagementApi",
-      "projectPath": "d:\\Angular\\TaskManagementApi\\TaskManagementApi.csproj",
+      "projectPath": "D:\\Angular\\TaskManagementApi\\TaskManagementApi.csproj",
       "packagesPath": "C:\\Users\\pcq112\\.nuget\\packages\\",
-      "outputPath": "d:\\Angular\\TaskManagementApi\\obj\\",
+      "outputPath": "D:\\Angular\\TaskManagementApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pcq112\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1882,6 +1882,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1934,7 +1939,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -44,29 +44,29 @@ public class TaskController : ControllerBase
         return User.FindFirst(ClaimTypes.Role)?.Value!;
     }
 
-[HttpGet("{id}")]
-public async Task<IActionResult> GetTask(int id)
-{
-    var task = await _context.Tasks.FindAsync(id);
-    if (task == null) return NotFound();
-    return Ok(task);
-}
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetTask(int id)
+    {
+        var task = await _context.Tasks.FindAsync(id);
+        if (task == null) return NotFound();
+        return Ok(task);
+    }
 
-[HttpPut("{id}")]
-public async Task<IActionResult> UpdateTask(int id, [FromBody] TaskManagementApi.Models.Task updatedTask)
-{
-    var task = await _context.Tasks.FindAsync(id);
-    if (task == null) return NotFound();
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateTask(int id, [FromBody] TaskManagementApi.Models.Task updatedTask)
+    {
+        var task = await _context.Tasks.FindAsync(id);
+        if (task == null) return NotFound();
 
-    task.Title = updatedTask.Title;
-    task.Description = updatedTask.Description;
-    task.Status = updatedTask.Status;
-    task.Duedate = updatedTask.Duedate;
-    task.Priority = updatedTask.Priority;
+        task.Title = updatedTask.Title;
+        task.Description = updatedTask.Description;
+        task.Status = updatedTask.Status;
+        task.Duedate = updatedTask.Duedate;
+        task.Priority = updatedTask.Priority;
 
-    await _context.SaveChangesAsync();
-    return NoContent();
-}
+        await _context.SaveChangesAsync();
+        return NoContent();
+    }
 
 
 }

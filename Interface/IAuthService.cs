@@ -7,4 +7,6 @@ public interface IAuthService
     Task<bool> RegisterAsync(RegisterDto request);
     Task<AuthResponseDto> LoginAsync(LoginDto request);
     Task<bool> DeleteTaskAsync(int taskId);
+
 }
+ 
